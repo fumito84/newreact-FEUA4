@@ -1,34 +1,31 @@
 // importai virsuje
 import FuncButton from "./components/FuncButton";
+import FuncDiv from "./components/FuncDiv";
+import ClassButton from "./components/ClassButton";
+import ClassDiv from "./components/ClassDiv";
 import "./App.css";
+import Greeting from "./components/Greeting";
 
 // apibrezia komponento pavadinima, visada didzioji raide
 // failo pavadinimas keip ir komponento
 function App() {
-  const name = "Tomas";
-
-  function getName() {
-    return "Tadas";
-  }
-
-  const getNameV2 = () => {
-    return "Tadukas";
+  const getText = () => {
+    return "How was your day?";
   };
-
-  const nameV2 = getNameV2();
-
   return (
     <div>
-      <h1>Tomas</h1>
-      <h2>{name}</h2>
-      <h2>{getName()}</h2>
-      <h2>{getNameV2()}</h2>
-      <h2>{nameV2}</h2>
-      <FuncButton title="Click me" />
-
-      <FuncButton title="Spausk Mane" />
-
-      <FuncButton title="Nespausk Manes" />
+      <div>
+        <h1>Hey</h1>
+        <h2>{getText()}</h2>
+        <FuncButton title="Mygtuko tekstas1" />
+        <FuncDiv />
+      </div>
+      <div>
+        <ClassButton name="Class mygtukas1" />
+        <ClassDiv />
+      </div>
+      <Greeting name="Tomas" />
+      <Greeting />
     </div>
   );
 }
