@@ -7,6 +7,7 @@ import ClassDiv from "./components/ClassDiv";
 import Card from "./components/Cards";
 import Avatar from "./components/Avatar";
 import Greeting from "./components/Greeting";
+import Products from "./components/Products";
 
 // apibrezia komponento pavadinima, visada didzioji raide
 // failo pavadinimas keip ir komponento
@@ -42,6 +43,7 @@ function App() {
         <Avatar name="diana Kristinaviciute" />
         <Avatar name="paulius mikutavicius" />
       </div>
+      <Products />
     </div>
   );
 }
