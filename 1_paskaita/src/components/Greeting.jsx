@@ -1,15 +1,15 @@
 import PropTypes from "prop-types";
 
 function Greeting(props) {
-    return <div>Hello, {props.name}! how are you today?</div>;
+  return <div>Hello, {props.name}! How are you?</div>;
 }
 
 Greeting.propTypes = {
-    name: PropTypes.string 
-}
+  name: PropTypes.string,
+};
 
 Greeting.defaultProps = {
-    name: "User"
-}
+  name: "User",
+};
 
-export default Greeting
+export default Greeting;
