@@ -1,30 +1,31 @@
-import { useEffect, useState } from "react";
-import NumbersList from "./components/NumbersList";
-import Button from "./components/Button";
-import Post from "./components/Post";
+// import { useEffect, useState } from "react";
+// import NumbersList from "./components/NumbersList";
+// import Button from "./components/Button";
+// import Post from "./components/Post";
+import Portfolio from "./svarankiska/Portfolio/Portfolio";
 
 const App = () => {
-  const [posts, setPosts] = useState([]);
+  // const [posts, setPosts] = useState([]);
 
-  const numbers = [1, 2, 3, 4, 5];
-  const buttonText = ["Hello", "Goodbye", "How are you?", "Where are you?"];
+  // const numbers = [1, 2, 3, 4, 5];
+  // const buttonText = ["Hello", "Goodbye", "How are you?", "Where are you?"];
 
-  useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/posts")
-      .then((resp) => resp.json())
-      .then((response) => {
-        setPosts(response);
-      })
-      .catch((error) => console.error(error));
-  }, []);
+  // useEffect(() => {
+  //   fetch("https://jsonplaceholder.typicode.com/posts")
+  //     .then((resp) => resp.json())
+  //     .then((response) => {
+  //       setPosts(response);
+  //     })
+  //     .catch((error) => console.error(error));
+  // }, []);
 
-  const showAlert = (text) => {
-    alert(text);
-  };
+  // const showAlert = (text) => {
+  //   alert(text);
+  // };
 
   return (
     <div>
-      <NumbersList numbers={numbers} />
+      {/* <NumbersList numbers={numbers} />
       <br />
       <NumbersList numbers={[0, 9, 10]} />
       <br />
@@ -59,7 +60,8 @@ const App = () => {
           description={post.body}
           date={new Date().toLocaleDateString()}
         />
-      ))}
+      ))} */}
+      <Portfolio />
     </div>
   );
 };
