@@ -1,0 +1,14 @@
+.secondCard{
+    width: 250px;
+    box-shadow: 3px 3px 10px rgb(188, 187, 187);
+}
+
+.secondCard img{
+    width: 250px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.secondCard p{
+    padding: 0.7rem 0;
+}

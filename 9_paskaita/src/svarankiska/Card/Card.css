@@ -1,0 +1,13 @@
+.card{
+    width: 250px;
+    box-shadow: 3px 3px 10px rgb(188, 187, 187);
+}
+
+.card img{
+    width: 250px;
+    height: 130px;
+    object-fit: cover;
+}
+.card p{
+    padding: 0.7rem 0;
+}
