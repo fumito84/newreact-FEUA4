@@ -1,5 +1,20 @@
-.output{
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid black;
+.white {
+    background-color: white;
+}
+  
+.yellow {
+    background-color: yellow;
+}
+  
+.green {
+    background-color: green;
+}
+  
+.red {
+    background-color: red;
+}
+
+.white, .yellow, .green, .red{
+    width: 50vw;
+    height: 30vh;
 }
