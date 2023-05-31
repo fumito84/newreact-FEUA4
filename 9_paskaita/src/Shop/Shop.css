@@ -1,0 +1,25 @@
+.card{
+    border: 1px solid rgb(159, 156, 156);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+}
+.price{
+    color: red;
+}
+.btn{
+    background: none;
+    padding: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgb(195, 193, 193);
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.btn:hover{
+    background: rgb(195, 193, 193);
+    cursor: pointer;
+}

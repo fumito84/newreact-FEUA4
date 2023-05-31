@@ -2,7 +2,9 @@
 // import NumbersList from "./components/NumbersList";
 // import Button from "./components/Button";
 // import Post from "./components/Post";
-import Portfolio from "./svarankiska/Portfolio/Portfolio";
+// import Portfolio from "./svarankiska/Portfolio/Portfolio";
+import ToDos from "./ToDos/ToDos";
+// import Shop from "./Shop/Shop";
 
 const App = () => {
   // const [posts, setPosts] = useState([]);
@@ -61,7 +63,9 @@ const App = () => {
           date={new Date().toLocaleDateString()}
         />
       ))} */}
-      <Portfolio />
+      {/* <Portfolio /> */}
+      <ToDos />
+      {/* <Shop /> */}
     </div>
   );
 };
