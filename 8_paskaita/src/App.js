@@ -2,7 +2,9 @@
 import { useRef, useState } from "react";
 import InputExample from "./InputExample";
 import InputExample2 from "./InputExample2";
-import InputColors from "./InputColors";
+// import InputColors from "./InputColors";
+import SimbolToColor from "./components/SimbolToColor";
+import KgConverter from "./components/KgConverter";
 
 const App = () => {
   // sukuriam ref kintąmąjį
@@ -49,7 +51,9 @@ const App = () => {
       <br /> */}
       <InputExample />
       <InputExample2 />
-      <InputColors />
+      {/* <InputColors /> */}
+      <SimbolToColor />
+      <KgConverter />
     </div>
   );
 };
